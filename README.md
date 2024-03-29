@@ -59,7 +59,7 @@ As of now, you should have the data flowing into your eventstream now. Let's add
 
 ## Send alert when a VIP checked in
 The scenario will be when there is a VIP checked in, an alert will be sent to Team.
-1. Let's first fake a VIP checked in, for example, Taylor Swift checked in. There is another power automate flow that can generate Taylor Swift flight info (mocked). Just follow the previous steps to get this flow configured and send the data to the same eventstream: https://github.com/xujxu/flightinfo.pam/blob/main/TaylorS.flight_20240329203202.zip
+1. Let's first fake a VIP checked in, for example, Taylor Swift checked in. There is another power automate flow that can generate Taylor Swift flight info (mocked). Just follow the previous steps to get this flow configured and send the data to the same eventstream: [https://github.com/xujxu/flightinfo.pam/blob/main/TaylorS.flight_20240329203202.zip](https://github.com/xujxu/flightinfo.pam/blob/main/TaylorSwift.flightinfo_20240329214410.zip)
 2. Add the Reflex as destination to eventstream.
    
 
