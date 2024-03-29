@@ -1,6 +1,13 @@
 # flightinfo.pam
 The power automate package to generate the flight info
 
+## Create your own eventstream and add the Custom App source
+1. Create your own evenstream
+   ![image](https://github.com/xujxu/flightinfo.pam/assets/68268054/ede1db83-5059-408e-866a-0021527d42a1)
+   
+3. Add the Custom App source
+   ![image](https://github.com/xujxu/flightinfo.pam/assets/68268054/f73cbf3a-6a6c-446d-aad0-c716d2f496f2)
+
 
 ## Step to import this zip file to create your own power automate flow
 
