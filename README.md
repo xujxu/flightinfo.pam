@@ -4,7 +4,7 @@ The power automate package to generate the flight info
 
 ## Step to import this zip file to create your own power automate flow
 
-1. Download this zip file from this git repo: 
+1. Download this zip file from this git repo: https://github.com/xujxu/flightinfo.pam/blob/main/FlightInfoData_20240329191945.zip
 2. login in https://make.powerautomate.com/ with your Power BI account
 3. Navigate to "My flow" in the left navigating pane
    ![image](https://github.com/xujxu/flightinfo.pam/assets/68268054/e07aecec-386d-4cc0-9926-2980424b957a)
