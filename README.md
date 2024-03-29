@@ -1,11 +1,14 @@
 # flightinfo.pam
 The power automate package to generate the flight info
 
-## Create your own eventstream and add the Custom App source
-1. Create your own evenstream
+## Create your own eventstream and KQL database and add the Custom App source
+1. Create your own KQL database
+   ![image](https://github.com/xujxu/flightinfo.pam/assets/68268054/bc36afce-a527-4688-9b7e-542de64ce8da)
+
+3. Create your own evenstream
    ![image](https://github.com/xujxu/flightinfo.pam/assets/68268054/ede1db83-5059-408e-866a-0021527d42a1)
    
-3. Add the Custom App source
+4. Add the Custom App source
    ![image](https://github.com/xujxu/flightinfo.pam/assets/68268054/f73cbf3a-6a6c-446d-aad0-c716d2f496f2)
 
 
@@ -46,6 +49,15 @@ The power automate package to generate the flight info
 16. Save it and do the test. It should run well.
 17. If everything runs well, go to the first step of "Recurrence" to configure it as long-running. If it runs into error, call for help from us.
     ![image](https://github.com/xujxu/flightinfo.pam/assets/68268054/a82712da-dc42-4d64-bd54-30822b714476)
+
+## Add the destination with event processor
+As of now, you should have the data flowing into your eventstream now. Let's add the KQL database with event processing before ingestion
+1. Add the "KQL database" destination in the eventstream canvas
+   ![image](https://github.com/xujxu/flightinfo.pam/assets/68268054/02aa92f7-898d-4723-9ca1-882e5b1ffb8f)
+2. Open the event processor to define your logic after filling all the parameters
+   ![image](https://github.com/xujxu/flightinfo.pam/assets/68268054/f6a6df4a-7ff7-44b6-b81f-67dad8158dd6)
+
+
 
 
 
