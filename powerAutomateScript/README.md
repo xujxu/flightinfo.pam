@@ -51,16 +51,13 @@ The power automate package to generate the flight info
     ![image](https://github.com/xujxu/flightinfo.pam/assets/68268054/a82712da-dc42-4d64-bd54-30822b714476)
 
 ## Add the destination with event processor
-As of now, you should have the data flowing into your eventstream now. Let's add the KQL database with event processing before ingestion
-1. Add the "KQL database" destination in the eventstream canvas
-   ![image](https://github.com/xujxu/flightinfo.pam/assets/68268054/02aa92f7-898d-4723-9ca1-882e5b1ffb8f)
-2. Open the event processor to define your logic after filling all the parameters
-   ![image](https://github.com/xujxu/flightinfo.pam/assets/68268054/f6a6df4a-7ff7-44b6-b81f-67dad8158dd6)
+As of now, you should have the data flowing into your eventstream now. Let's add the KQL database with event processing before ingestion. For details, refer to https://learn.microsoft.com/fabric/real-time-analytics/event-streams/process-events-using-event-processor-editor.
 
 ## Send alert when a VIP checked in
 The scenario will be when there is a VIP checked in, an alert will be sent to Team.
-1. Let's first fake a VIP checked in, for example, Taylor Swift checked in. There is another power automate flow that can generate Taylor Swift flight info (mocked). Just follow the previous steps to get this flow configured and send the data to the same eventstream: https://github.com/xujxu/flightinfo.pam/blob/main/TaylorSwift.flightinfo_20240329214410.zip
+1. Let's first fake a VIP checked in, for example, Taylor Swift checked in. There is another power automate flow that can generate Taylor Swift flight info (mocked). Just follow the previous steps to get this flow configured and send the data to the same eventstream: [VIP.flightinfo.zip](./VIP.flightinfo_20240329214410.zip)
 2. Add the Reflex as destination to eventstream.
+3. Once data flows into Reflex, go to Reflex to configure the trigger. For more details, refer to https://learn.microsoft.com/fabric/data-activator/data-activator-create-triggers-design-mode
    
 
 
